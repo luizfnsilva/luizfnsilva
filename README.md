@@ -15,3 +15,9 @@ project I use, I report it with the commits that show it.
 | [pypa/setuptools-scm#1568](https://github.com/pypa/setuptools-scm/issues/1568) | `v1.0` and `1.0` on different commits build the same version without a warning | wontfix; docs note added (#1569, merged) |
 | [mrabarnett/mrab-regex#624](https://github.com/mrabarnett/mrab-regex/pull/624) | CI: check that the tag matches the version before publishing | open |
 | [ofek/hatch-vcs#115](https://github.com/ofek/hatch-vcs/pull/115) | docs: `tag-pattern` default linked to the current setuptools-scm docs | open |
+| [tyki6/MyJWT#154](https://github.com/tyki6/MyJWT/issues/154) | tag `2.1.0` declares version `2.0.0` in `pyproject.toml` | open |
+| [dfurtado/dataclass-csv#77](https://github.com/dfurtado/dataclass-csv/issues/77) | tag `1.4.1` points to a commit that declares `1.4.0` | open |
+| [fillipe-gsm/python-tsp#73](https://github.com/fillipe-gsm/python-tsp/issues/73) | tag `v0.5.0` points to a commit that declares `0.4.2` | open |
+| [strawberry-graphql/strawberry#4808](https://github.com/strawberry-graphql/strawberry/discussions/4808) | discussion: a read-only tag/version check in the release workflow | open |
+| [strawberry-graphql/strawberry-django#993](https://github.com/strawberry-graphql/strawberry-django/issues/993) | question: a read-only tag/version check in the release workflow | open |
+| [usecross/cross-web#22](https://github.com/usecross/cross-web/issues/22) | question: a read-only tag/version check in the release workflow | open |
