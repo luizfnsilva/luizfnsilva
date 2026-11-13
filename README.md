@@ -17,8 +17,9 @@ pass).
 
 | project | what | status |
 |---|---|---|
+| [rb-general: "Tags that name a version their commit does not declare"](https://lists.reproducible-builds.org/pipermail/rb-general/2026-November/004205.html) | mailing-list thread on tag/version mismatches and how distributions check them (Nix, Debian, Arch, Fedora, Gentoo, Guix, Homebrew); one of my claims corrected in the thread and acknowledged | ongoing |
 | [r1chardj0n3s/parse#281](https://github.com/r1chardj0n3s/parse/issues/281) | tag `1.22.4` declares `1.22.3`; the published 1.22.4 differs only in that line | open |
-| [mangiucugna/json_repair#254](https://github.com/mangiucugna/json_repair/issues/254) | tag `v0.64.7` declares `0.64.6`; its publish failed on PyPI | open |
+| [mangiucugna/json_repair#254](https://github.com/mangiucugna/json_repair/issues/254) | tag `v0.64.7` declares `0.64.6`; its publish failed on PyPI | closed by the maintainer, not wanted |
 | [ossf/wg-supply-chain-integrity#97](https://github.com/ossf/wg-supply-chain-integrity/issues/97) | feedback request: where a tag/declared-version consistency check belongs among supply-chain controls | open |
 | [Comfy-Org/ComfyUI#17616](https://github.com/Comfy-Org/ComfyUI/issues/17616) | the `v0.14.2` Windows portable package declares `0.14.1` (checked inside the published archive); `v0.18.3` and `v0.20.2` the same | open |
 | [smallvec/smallvec#852](https://github.com/smallvec/smallvec/issues/852) | tags `v1.16.0` and `v2.0.0-alpha.13` point before the version bump; crates.io records other commits | closed: old tags kept, future releases tagged on the published commit |
