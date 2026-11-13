@@ -3,6 +3,16 @@
 Release engineering and reproducibility. When I find a release whose tag and code disagree in a
 project I use, I report it with the commits that show it.
 
+## closure_drift
+
+A read-only check that a release tag names the version its commit declares, and that a version name
+has not been reused for different code. Answers pass, mismatch, or "not decidable" (exit 2, never a
+pass).
+
+- [closure_drift 1.8.0](https://github.com/luizfnsilva/closure_drift/releases/tag/v1.8.0): wheel and sdist built in CI with provenance attestations, [DOI 10.5281/zenodo.24149216](https://doi.org/10.5281/zenodo.24149216)
+- GitHub Action `luizfnsilva/closure_drift@v1.8.0`, and a [GitLab CI/CD Catalog component](https://gitlab.com/explore/catalog/lfnsilva.invest/closure-drift)
+- [Gate on both platforms](https://github.com/luizfnsilva/closure-drift-release-examples#two-platforms-same-gate): the publish job runs on a correct release, and drift or an undecidable case stops it
+
 ## Open source contributions
 
 | project | what | status |
