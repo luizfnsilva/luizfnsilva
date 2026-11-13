@@ -17,6 +17,7 @@ pass).
 
 | project | what | status |
 |---|---|---|
+| [r1chardj0n3s/parse#281](https://github.com/r1chardj0n3s/parse/issues/281) | tag `1.22.4` declares `1.22.3`; the published 1.22.4 differs only in that line | open |
 | [mangiucugna/json_repair#254](https://github.com/mangiucugna/json_repair/issues/254) | tag `v0.64.7` declares `0.64.6`; its publish failed on PyPI | open |
 | [ossf/wg-supply-chain-integrity#97](https://github.com/ossf/wg-supply-chain-integrity/issues/97) | feedback request: where a tag/declared-version consistency check belongs among supply-chain controls | open |
 | [Comfy-Org/ComfyUI#17616](https://github.com/Comfy-Org/ComfyUI/issues/17616) | the `v0.14.2` Windows portable package declares `0.14.1` (checked inside the published archive); `v0.18.3` and `v0.20.2` the same | open |
