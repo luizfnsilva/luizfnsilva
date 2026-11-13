@@ -17,6 +17,7 @@ pass).
 
 | project | what | status |
 |---|---|---|
+| [mangiucugna/json_repair#254](https://github.com/mangiucugna/json_repair/issues/254) | tag `v0.64.7` declares `0.64.6`; its publish failed on PyPI | open |
 | [ossf/wg-supply-chain-integrity#97](https://github.com/ossf/wg-supply-chain-integrity/issues/97) | feedback request: where a tag/declared-version consistency check belongs among supply-chain controls | open |
 | [Comfy-Org/ComfyUI#17616](https://github.com/Comfy-Org/ComfyUI/issues/17616) | the `v0.14.2` Windows portable package declares `0.14.1` (checked inside the published archive); `v0.18.3` and `v0.20.2` the same | open |
 | [smallvec/smallvec#852](https://github.com/smallvec/smallvec/issues/852) | tags `v1.16.0` and `v2.0.0-alpha.13` point before the version bump; crates.io records other commits | closed: old tags kept, future releases tagged on the published commit |
