@@ -9,16 +9,18 @@ A read-only check that a release tag names the version its commit declares, and 
 has not been reused for different code. Answers pass, mismatch, or "not decidable" (exit 2, never a
 pass).
 
-- [closure_drift 1.8.0](https://github.com/luizfnsilva/closure_drift/releases/tag/v1.8.0): wheel and sdist built in CI with provenance attestations, [DOI 10.5281/zenodo.24149216](https://doi.org/10.5281/zenodo.24149216)
-- GitHub Action `luizfnsilva/closure_drift@v1.8.0`, and a [GitLab CI/CD Catalog component](https://gitlab.com/explore/catalog/lfnsilva.invest/closure-drift)
+- [closure_drift 1.8.1](https://github.com/luizfnsilva/closure_drift/releases/tag/v1.8.1): wheel and sdist built twice in CI with pinned tools, rebuilt bit for bit outside it, with provenance attestations, [DOI 10.5281/zenodo.24209557](https://doi.org/10.5281/zenodo.24209557)
+- GitHub Action `luizfnsilva/closure_drift@v1.8.1`, and a [GitLab CI/CD Catalog component](https://gitlab.com/explore/catalog/lfnsilva.invest/closure-drift)
 - [Gate on both platforms](https://github.com/luizfnsilva/closure-drift-release-examples#two-platforms-same-gate): the publish job runs on a correct release, and drift or an undecidable case stops it
+- [Wrong tags and package registries](https://github.com/luizfnsilva/tag-registry-survey-2026-11): of 82 tags that name a version their commit does not declare, 23 had that version published (pre-registered, data public)
 
 ## Open source contributions
 
 | project | what | status |
 |---|---|---|
 | [rb-general: "Tags that name a version their commit does not declare"](https://lists.reproducible-builds.org/pipermail/rb-general/2026-November/004205.html) | mailing-list thread on tag/version mismatches and how distributions check them (Nix, Debian, Arch, Fedora, Gentoo, Guix, Homebrew); one of my claims corrected in the thread and acknowledged | ongoing |
-| [r1chardj0n3s/parse#281](https://github.com/r1chardj0n3s/parse/issues/281) | tag `1.22.4` declares `1.22.3`; the published 1.22.4 differs only in that line | open |
+| [r1chardj0n3s/parse#284](https://github.com/r1chardj0n3s/parse/pull/284) | workflow: on a tag push, check that the tag matches `parse.__version__`, as the maintainer asked | open |
+| [r1chardj0n3s/parse#281](https://github.com/r1chardj0n3s/parse/issues/281) | tag `1.22.4` declares `1.22.3`; the published 1.22.4 differs only in that line | maintainer asked for a check (#284) |
 | [mangiucugna/json_repair#254](https://github.com/mangiucugna/json_repair/issues/254) | tag `v0.64.7` declares `0.64.6`; its publish failed on PyPI | closed by the maintainer, not wanted |
 | [ossf/wg-supply-chain-integrity#97](https://github.com/ossf/wg-supply-chain-integrity/issues/97) | feedback request: where a tag/declared-version consistency check belongs among supply-chain controls | open |
 | [Comfy-Org/ComfyUI#17616](https://github.com/Comfy-Org/ComfyUI/issues/17616) | the `v0.14.2` Windows portable package declares `0.14.1` (checked inside the published archive); `v0.18.3` and `v0.20.2` the same | open |
