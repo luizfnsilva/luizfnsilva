@@ -12,7 +12,7 @@ pass).
 - [closure_drift 1.8.1](https://github.com/luizfnsilva/closure_drift/releases/tag/v1.8.1): wheel and sdist built twice in CI with pinned tools, rebuilt bit for bit outside it, with provenance attestations, [DOI 10.5281/zenodo.24209557](https://doi.org/10.5281/zenodo.24209557)
 - GitHub Action `luizfnsilva/closure_drift@v1.8.1`, and a [GitLab CI/CD Catalog component](https://gitlab.com/explore/catalog/lfnsilva.invest/closure-drift)
 - [Gate on both platforms](https://github.com/luizfnsilva/closure-drift-release-examples#two-platforms-same-gate): the publish job runs on a correct release, and drift or an undecidable case stops it
-- [Wrong tags and package registries](https://github.com/luizfnsilva/tag-registry-survey-2026-11): of 82 tags that name a version their commit does not declare, 23 had that version published (pre-registered, data public)
+- [Tag/version mismatches and package registries](https://github.com/luizfnsilva/tag-registry-survey-2026-11): of 82 tags that name a version their commit does not declare, 23 had that version published (pre-registered, data public)
 
 ## Open source contributions
 
